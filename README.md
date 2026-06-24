@@ -56,25 +56,112 @@ Linear SVC slightly outperformed Logistic Regression. Across both models, **Neut
 - `scikit-learn` — feature extraction (`CountVectorizer`), models (`LogisticRegression`, `LinearSVC`), `GridSearchCV`, evaluation metrics
 - `matplotlib`, `seaborn`, `wordcloud` — visualization
 
-## Getting Started
+## Installation & Setup
 
 ### Prerequisites
+
+Make sure Python 3.x is installed on your system.
+
+Verify installation:
+
+```bash
+python3 --version
+```
+
+### Clone the Repository
+
+```bash
+git clone <repository-url>
+cd <repository-name>
+```
+
+### Create a Virtual Environment
+
+```bash
+python3 -m venv venv
+```
+
+Activate the virtual environment:
+
+**macOS/Linux**
+```bash
+source venv/bin/activate
+```
+
+**Windows**
+```bash
+venv\Scripts\activate
+```
+
+### Install Required Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Running the Notebook
-
-1. Clone this repository
-2. Place `vaccination_tweets.csv` in the project root 
-3. Open and run `sentiment_analysis.ipynb` in Jupyter Notebook / JupyterLab:
+### Install Jupyter Lab
 
 ```bash
-jupyter notebook sentiment_analysis.ipynb
+pip install jupyterlab
 ```
 
-## Project Structure 
+### Register Virtual Environment as a Jupyter Kernel
+
+```bash
+pip install ipykernel
+
+python -m ipykernel install --user \
+  --name=sentiment-analysis \
+  --display-name="Python (Sentiment Analysis)"
+```
+
+### macOS SSL Certificate Fix (If NLTK Downloads Fail)
+
+Some macOS installations may encounter SSL certificate verification errors while downloading NLTK resources.
+
+Run:
+
+```bash
+open "/Applications/Python 3.12/Install Certificates.command"
+```
+
+Replace `3.12` with your installed Python version if different.
+
+### Launch Jupyter Lab
+
+```bash
+jupyter lab
+```
+
+Jupyter Lab will open automatically in your browser at:
+
+```text
+http://localhost:8888
+```
+
+### Select the Correct Kernel
+
+In Jupyter Lab:
+
+```text
+Kernel → Change Kernel → Python (Sentiment Analysis)
+```
+
+This ensures the notebook uses the virtual environment and all installed dependencies.
+
+### Run the Notebook
+
+Open:
+
+```text
+sentiment_analysis.ipynb
+```
+
+and execute the cells sequentially to perform data preprocessing, sentiment analysis, visualization, model training, and evaluation.
+
+> **Note:** Make sure `vaccination_tweets.csv` is placed in the project root before running the notebook.
+
+## Project Structure
 
 ```
 .
@@ -97,5 +184,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Made with ❤️ by **Somilemids04**
-⭐ Star this repo if you found it useful!
+Made with ❤️ by **Somilemid04**
+
+⭐ If you found this project helpful, consider giving it a star — it's appreciated!
