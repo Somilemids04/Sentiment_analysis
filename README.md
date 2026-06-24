@@ -74,7 +74,7 @@ pip install -r requirements.txt
 jupyter notebook sentiment_analysis.ipynb
 ```
 
-## Project Structure
+## Project Structure 
 
 ```
 .
