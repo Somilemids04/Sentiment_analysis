@@ -167,7 +167,7 @@ and execute the cells sequentially to perform data preprocessing, sentiment anal
 .
 ├── sentiment_analysis.ipynb   # Main analysis notebook
 ├── Data
-    ├── vaccination_tweets.csv     # Dataset 
+│   └── vaccination_tweets.csv # Dataset
 ├── requirements.txt           # Python dependencies
 └── README.md
 ```
