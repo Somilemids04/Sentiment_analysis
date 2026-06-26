@@ -15,27 +15,27 @@ The notebook expects a CSV file named `vaccination_tweets.csv` in the project di
 ## Project Workflow
 
 1. **Data Cleaning**
-   - Drop irrelevant columns, keep only tweet text
-   - Lowercase text, remove URLs, mentions, hashtags, and punctuation
-   - Tokenize and remove stopwords (NLTK)
-   - Remove duplicate tweets
+   - Drop irrelevant columns, keep only tweet text.
+   - Lowercase text, remove URLs, mentions, hashtags, and punctuation.
+   - Tokenize and remove stopwords (NLTK).
+   - Remove duplicate tweets.
 
 2. **Sentiment Labeling**
    - Compute polarity scores with `TextBlob`
    - Map polarity to `Positive`, `Negative`, or `Neutral` labels
 
-3. **Exploratory Data Analysis**
-   - Sentiment distribution (count plot and pie chart)
-   - Word clouds for positive, negative, and neutral tweets
+3. **Exploratory Data Analysis(EDA)**
+   - Sentiment distribution (count plot and pie chart).
+   - Word clouds for positive, negative, and neutral tweets.
 
 4. **Feature Extraction**
-   - `CountVectorizer` with unigrams and bigrams (`ngram_range=(1,2)`)
+   - `CountVectorizer` with unigrams and bigrams (`ngram_range=(1,2)`).
 
 5. **Modeling**
    - Train/test split (80/20)
-   - **Logistic Regression** (baseline + hyperparameter tuning via `GridSearchCV`)
-   - **Linear SVC** (baseline + hyperparameter tuning via `GridSearchCV`)
-   - Evaluation via accuracy, confusion matrix, and classification report
+   - **Logistic Regression** (baseline + hyperparameter tuning via `GridSearchCV`).
+   - **Linear SVC** (baseline + hyperparameter tuning via `GridSearchCV`).
+   - Evaluation via accuracy, confusion matrix, and classification report.
 
 ## Results
 
