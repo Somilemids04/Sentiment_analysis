@@ -4,7 +4,7 @@ A sentiment analysis project that classifies tweets about COVID-19 vaccines as *
 
 ## Overview
 
-This project analyzes public sentiment toward COVID-19 vaccines based on tweet text. The pipeline cleans raw tweets, derives sentiment labels using `TextBlob` polarity scores, visualizes patterns through word clouds and distribution plots, and trains classifiers (Logistic Regression and Linear SVC) to predict sentiment from text.
+This project analyzes public sentiment toward COVID-19 vaccines based on tweet text. The pipeline cleans raw tweets, derives sentiment labels using `TextBlob` polarity scores, visualizes patterns through word clouds and distribution plots, and trains classifiers (Logistic Regression and Linear SVC) to predict sentiment from text. 
 
 ## Dataset  
 
