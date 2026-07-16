@@ -10,7 +10,7 @@ This project analyzes public sentiment toward COVID-19 vaccines based on tweet t
 
 The notebook expects a CSV file named `vaccination_tweets.csv` in the project directory, containing tweet metadata. Only the `text` column is used for analysis; other columns (user info, dates, hashtags, retweet counts, etc.) are dropped during preprocessing.
 
-> **Note:** The dataset is not included in this repository. You'll need to supply your own `vaccination_tweets.csv` (e.g. from a public Kaggle dataset on COVID-19 vaccine tweets) and place it in the project root before running the notebook.
+> **Note:** The dataset is not included in this repository. You'll need to supply your own `vaccination_tweets.csv` (e.g., from a public Kaggle dataset on COVID-19 vaccine tweets) and place it in the project root before running the notebook.
 
 ## Project Workflow
 
