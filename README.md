@@ -139,7 +139,7 @@ Jupyter Lab will open automatically in your browser at:
 http://localhost:8888
 ```
 
-### Select the Correct Kernel
+### Select the Correct Kernel 
 
 In Jupyter Lab:
 
