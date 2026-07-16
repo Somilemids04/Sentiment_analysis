@@ -15,7 +15,7 @@ The notebook expects a CSV file named `vaccination_tweets.csv` in the project di
 ## Project Workflow
 
 1. **Data Cleaning**
-   - Drop irrelevant columns, keep only tweet text.
+   - Drop irrelevant columns; keep only tweet text.
    - Lowercase text, remove URLs, mentions, hashtags, and punctuation.
    - Tokenize and remove stopwords (NLTK).
    - Remove duplicate tweets.
