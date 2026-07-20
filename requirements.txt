@@ -4,10 +4,6 @@ cycler==0.12.1
 fonttools==4.63.0
 joblib==1.5.3
 kiwisolver==1.5.0
-matplotlib==3.11.0
-wordcloud==1.9.6
-narwhals==2.22.1
-nltk==3.9.4
 numpy==2.5.0
 scipy==1.18.0
 threadpoolctl==3.6.0
@@ -19,6 +15,10 @@ packaging==26.2
 pandas==3.0.3
 pillow==12.2.0
 pyparsing==3.3.2
+matplotlib==3.11.0
+wordcloud==1.9.6
+narwhals==2.22.1
+nltk==3.9.4
 seaborn==0.13.2
 six==1.17.0
 textblob==0.20.0
