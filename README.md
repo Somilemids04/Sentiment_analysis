@@ -75,7 +75,7 @@ git clone <repository-url>
 cd <repository-name>
 ```
 
-### Create a Virtual Environment
+### Create a Virtual Environment 
 
 ```bash
 python3 -m venv venv
