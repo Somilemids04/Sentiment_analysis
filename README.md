@@ -22,7 +22,7 @@ The notebook expects a CSV file named `vaccination_tweets.csv` in the project di
 
 2. **Sentiment Labeling**
    - Compute polarity scores with `TextBlob`
-   - Map polarity to `Positive`, `Negative`, or `Neutral` labels
+   - Map polarity to `Positive`, `Negative`, or `Neutral` labels 
 
 3. **Exploratory Data Analysis(EDA)**
    - Sentiment distribution (count plot and pie chart).
